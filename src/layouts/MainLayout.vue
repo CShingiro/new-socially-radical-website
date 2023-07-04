@@ -11,25 +11,15 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
+        <q-toolbar-title> Quasar App </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
-    <q-drawer
-      v-model="leftDrawerOpen"
-      show-if-above
-      bordered
-    >
+    <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item-label
-          header
-        >
-          Essential Links
-        </q-item-label>
+        <q-item-label header> Essential Links </q-item-label>
 
         <EssentialLink
           v-for="link in essentialLinks"
@@ -47,56 +37,46 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import EssentialLink, { EssentialLinkProps } from 'components/EssentialLink.vue';
+import EssentialLink, {
+  EssentialLinkProps,
+} from 'components/EssentialLink.vue';
 
 const essentialLinks: EssentialLinkProps[] = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    title: 'Home',
+    caption: 'Home Page',
+    icon: 'home',
+    link: '/',
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
+    title: 'About',
+    caption: 'About the Developer',
     icon: 'code',
-    link: 'https://github.com/quasarframework'
+    link: '/about',
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    title: 'Credentials',
+    caption: 'Credentials and Qualifications',
+    icon: '',
+    link: '/credentials',
   },
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
+    title: 'Past Work',
+    caption: 'Past quality work',
     icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    link: '/past-work',
   },
   {
-    title: 'Twitter',
+    title: 'Contact',
     caption: '@quasarframework',
     icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    link: '/contact',
   },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
 ];
 
-const leftDrawerOpen = ref(false)
+const leftDrawerOpen = ref(false);
 
 function toggleLeftDrawer() {
-  leftDrawerOpen.value = !leftDrawerOpen.value
+  leftDrawerOpen.value = !leftDrawerOpen.value;
 }
 </script>

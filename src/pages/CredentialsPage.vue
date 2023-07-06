@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import CredentialsCard from 'src/components/CredentialsCard.vue';
 const docs = [
   '/docs/AwardLetter.pdf',
   '/docs/CertificateCodeCademy.pdf',
@@ -14,13 +15,11 @@ const docs = [
 </script>
 
 <template>
-  <q-page>
-    <q-pdfviewer
+  <q-page class="row items-center justify-evenly">
+    <credentials-card
       v-for="(doc, index) in docs"
-      :src="doc"
       :key="index"
-      type="pdfjs"
-    >
-    </q-pdfviewer>
+      :docSource="doc"
+    ></credentials-card>
   </q-page>
 </template>

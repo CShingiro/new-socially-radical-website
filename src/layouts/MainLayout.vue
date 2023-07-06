@@ -6,12 +6,12 @@
           flat
           dense
           round
-          icon="menu"
+          icon="img:/Images/g1643.png"
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Quasar App </q-toolbar-title>
+        <q-toolbar-title> Socially Radical Web Design </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -57,19 +57,19 @@ const essentialLinks: EssentialLinkProps[] = [
   {
     title: 'Credentials',
     caption: 'Credentials and Qualifications',
-    icon: '',
+    icon: 'ion-desktop',
     link: '/credentials',
   },
   {
     title: 'Past Work',
     caption: 'Past quality work',
-    icon: 'record_voice_over',
+    icon: 'ion-briefcase',
     link: '/past-work',
   },
   {
     title: 'Contact',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
+    caption: 'Contact Socially Radical Web Design',
+    icon: 'ion-mail',
     link: '/contact',
   },
 ];

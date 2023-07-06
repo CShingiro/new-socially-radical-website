@@ -11,7 +11,9 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Socially Radical Web Design </q-toolbar-title>
+        <q-toolbar-title class="romade-italic">
+          Socially Radical Web Design
+        </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>

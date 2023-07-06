@@ -6,14 +6,21 @@ defineProps<{
 </script>
 
 <template>
-  <q-card>
+  <q-card class="card-style col-gutter-mixed">
     <q-img :src="pastWork.source">
       <div class="absolute-bottom text-h6 text-center">
-        <a :href="pastWork.link">Link Here</a>
+        <a :href="pastWork.link" class="romade-italic">Link Here</a>
       </div>
     </q-img>
-    <q-card-section>
+    <q-card-section class="text-center">
       {{ pastWork.description }}
     </q-card-section>
   </q-card>
 </template>
+
+<style>
+.card-style {
+  width: 100%;
+  max-width: 450px;
+}
+</style>

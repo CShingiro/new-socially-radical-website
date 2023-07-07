@@ -130,6 +130,10 @@ module.exports = configure(function (/* ctx */) {
       'fadeOutDown',
       'fadeOutLeft',
       'fadeOutRight',
+      'fadeInBottomLeft',
+      'fadeInBottomRight',
+      'fadeOutBottomLeft',
+      'fadeOutBottomRight',
     ],
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#sourcefiles

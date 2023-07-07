@@ -55,8 +55,8 @@
       </div>
     </div>
   </q-page>
-  <q-page class="lt-md row items-center justify-evenly">
-    <q-img class="logo row center" src="/Images/g1643.png"></q-img>
+  <q-page class="lt-lg row items-center justify-evenly">
+    <q-img class="logo row center" src="/Images/g1643.svg"></q-img>
     <h5 class="romade-italic text-center">
       Welcome to Socially Radical Web Design
     </h5>

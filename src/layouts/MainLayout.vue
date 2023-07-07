@@ -3,7 +3,7 @@
     <q-header elevated>
       <q-toolbar class="bg-grey">
         <q-btn
-          class="lt-md"
+          class="lt-lg"
           flat
           dense
           round
@@ -56,7 +56,7 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer class="lt-md" v-model="leftDrawerOpen" bordered>
+    <q-drawer class="lt-lg" v-model="leftDrawerOpen" bordered>
       <q-list>
         <q-item-label header> Essential Links </q-item-label>
 
@@ -110,11 +110,20 @@
         <q-btn
           flat
           no-caps
-          class="romade-italic"
+          class="romade-italic gt-md"
           aria-label="Fair Use Copyright 2021 Socially Radical Guitarist"
         >
           <q-icon name="copyright" color="white"></q-icon>
           2022 - Socially Radical Web Design
+        </q-btn>
+        <q-btn
+          flat
+          no-caps
+          class="romade-italic lt-lg"
+          aria-label="Fair Use Copyright 2021 Socially Radical Guitarist"
+        >
+          <q-icon name="copyright" color="white"></q-icon>
+          2022 - SRWD
         </q-btn>
       </q-toolbar>
     </q-footer>

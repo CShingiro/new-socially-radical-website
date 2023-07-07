@@ -17,6 +17,7 @@ defineProps<{
         inner-content-style="background-color: grey"
         type="html5"
         :src="docSource"
+        error-string="Download the PDF to View it"
       ></q-pdfviewer>
     </transition>
   </q-card>

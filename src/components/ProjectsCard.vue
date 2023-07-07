@@ -8,8 +8,8 @@ defineProps<{
 <template>
   <transition-group
     appear
-    enter-active-class="animated rollIn"
-    leave-active-class="animated rollOut"
+    enter-active-class="animated rollIn delay-2s"
+    leave-active-class="animated rollOut delay-2s"
     :duration="5000"
   >
     <q-card key="card" class="card-style col-gutter-mixed">

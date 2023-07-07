@@ -1,8 +1,85 @@
 <script setup lang="ts"></script>
 
 <template>
-  <q-page class="row items-center justify-evenly">
-    <q-img class="logo" src="/Images/g1643.png"></q-img>
+  <q-page class="gt-md row items-center justify-evenly">
+    <transition
+      appear
+      enter-active-class="animated fadeInLeft delay-3s"
+      leave-active-class="animated fadeOutLeft delay-3s"
+      :duration="5000"
+    >
+      <q-img class="logo col" src="/Images/g1643.png"></q-img>
+    </transition>
+    <div class="col">
+      <transition
+        appear
+        enter-active-class="animated fadeInDown delay-3s"
+        leave-active-class="animated fadeOutDown delay-3s"
+        :duration="5000"
+      >
+        <h4 class="romade-italic">Welcome to Socially Radical Web Design</h4>
+      </transition>
+      <div class="row items-center justify-evenly">
+        <div class="col">
+          <transition
+            appear
+            enter-active-class="animated fadeInUp delay-3s"
+            leave-active-class="animated fadeOutUp delay-3s"
+            :duration="5000"
+          >
+            <q-btn
+              no-caps
+              class="romade-italic"
+              outline
+              label="About the Designer"
+              to="/about"
+            ></q-btn>
+          </transition>
+        </div>
+        <div class="col">
+          <transition
+            appear
+            enter-active-class="animated fadeInRight delay-3s"
+            leave-active-class="animated fadeOutRight delay-3s"
+            :duration="5000"
+          >
+            <q-btn
+              no-caps
+              class="romade-italic"
+              outline
+              label="Contact"
+              to="/contact"
+            ></q-btn>
+          </transition>
+        </div>
+      </div>
+    </div>
+  </q-page>
+  <q-page class="lt-md row items-center justify-evenly">
+    <q-img class="logo row center" src="/Images/g1643.png"></q-img>
+    <h5 class="romade-italic text-center">
+      Welcome to Socially Radical Web Design
+    </h5>
+    <div class="row items-center justify-evenly">
+      <div class="col-gutter-mixed">
+        <q-btn
+          no-caps
+          class="romade-italic"
+          flat
+          label="About the Designer"
+          to="/about"
+        ></q-btn>
+      </div>
+      <div class="col-gutter-mixed">
+        <q-btn
+          no-caps
+          class="romade-italic"
+          flat
+          label="Contact"
+          to="/contact"
+        ></q-btn>
+      </div>
+    </div>
   </q-page>
 </template>
 

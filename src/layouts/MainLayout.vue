@@ -7,7 +7,7 @@
           flat
           dense
           round
-          icon="img:/Images/g1643.png"
+          icon="menu"
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />

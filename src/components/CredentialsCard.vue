@@ -8,8 +8,8 @@ defineProps<{
   <q-card>
     <transition
       appear
-      enter-active-class="animated zoomInUp"
-      leave-active-class="animated zoomOutUp"
+      enter-active-class="animated zoomInUp delay-5s"
+      leave-active-class="animated zoomOutUp delay-5s"
       :duration="5000"
     >
       <q-pdfviewer

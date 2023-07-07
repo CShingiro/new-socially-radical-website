@@ -6,21 +6,38 @@ defineProps<{
 </script>
 
 <template>
-  <q-card class="card-style col-gutter-mixed">
-    <q-img :src="pastWork.source">
-      <div class="absolute-bottom text-h6 text-center">
-        <a :href="pastWork.link" class="romade-italic">Link Here</a>
-      </div>
-    </q-img>
-    <q-card-section class="text-center">
-      {{ pastWork.description }}
-    </q-card-section>
-  </q-card>
+  <transition-group
+    appear
+    enter-active-class="animated rollIn"
+    leave-active-class="animated rollOut"
+    :duration="5000"
+  >
+    <q-card key="card" class="card-style col-gutter-mixed">
+      <q-img key="project-image" :src="pastWork.source">
+        <div key="divider" class="absolute-bottom text-h6 text-center">
+          <a
+            key="link"
+            :href="pastWork.link"
+            target="_blank"
+            class="romade-italic change-active"
+            >Link Here</a
+          >
+        </div>
+      </q-img>
+      <q-card-section key="text" class="text-center">
+        {{ pastWork.description }}
+      </q-card-section>
+    </q-card>
+  </transition-group>
 </template>
 
-<style>
+<style scoped>
 .card-style {
   width: 100%;
   max-width: 450px;
+}
+
+.change-active {
+  color: white;
 }
 </style>

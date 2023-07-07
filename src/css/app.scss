@@ -4,6 +4,15 @@
   src: url(Fonts/romande-adf-std-italic.ttf);
 }
 
+@font-face {
+  font-family: 'open-sans';
+  src: url(Fonts/OpenSans-VariableFont_wdth\wght.ttf);
+}
+
 .romade-italic {
   font-family: 'romade';
+}
+
+.open-sans {
+  font-family: 'open-sans';
 }

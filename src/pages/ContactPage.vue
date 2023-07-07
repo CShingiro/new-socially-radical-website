@@ -9,7 +9,7 @@ const message = ref('');
 </script>
 
 <template>
-  <q-page>
+  <q-page class="row items-center justify-evenly">
     <q-form
       name="Contact Form"
       enctype="text/plain"
@@ -20,7 +20,13 @@ const message = ref('');
       <q-input v-model="email" type="email"></q-input>
       <q-input v-model="subject" type="text"></q-input>
       <q-input v-model="message" type="text"></q-input>
-      <q-btn type="submit" name="Submit"></q-btn>
+      <q-btn
+        no-caps
+        class="romade-italic"
+        type="submit"
+        label="Submit"
+        name="Submit"
+      ></q-btn>
     </q-form>
   </q-page>
 </template>

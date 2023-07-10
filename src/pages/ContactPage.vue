@@ -31,7 +31,7 @@ const onSubmit = () => {
       console.log(res);
     })
     .catch((err) => {
-      alert(err);
+      console.log(err);
     });
 
   alert('Message sent. Please wait 24-48 hours for a reply.');

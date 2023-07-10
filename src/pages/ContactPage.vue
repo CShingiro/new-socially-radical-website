@@ -1,11 +1,46 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, reactive } from 'vue';
+import { ContactType } from 'src/ContactType';
+import { api } from 'src/boot/axios';
+
+let contactInfo: ContactType = reactive({
+  firstName: '',
+  lastName: '',
+  email: '',
+  subject: '',
+  message: '',
+});
 
 const firstName = ref('');
 const lastName = ref('');
 const email = ref('');
 const subject = ref('');
 const message = ref('');
+
+const onSubmit = () => {
+  contactInfo = {
+    firstName: firstName.value,
+    lastName: lastName.value,
+    email: email.value,
+    subject: subject.value,
+    message: message.value,
+  };
+  api
+    .post('/api/v1/contact', contactInfo)
+    .then((res) => {
+      console.log(res);
+    })
+    .catch((err) => {
+      alert(err);
+    });
+
+  alert('Message sent. Please wait 24-48 hours for a reply.');
+  firstName.value = '';
+  lastName.value = '';
+  email.value = '';
+  subject.value = '';
+  message.value = '';
+};
 </script>
 
 <template>
@@ -52,11 +87,7 @@ const message = ref('');
           </div>
         </div>
       </div>
-      <q-form
-        name="Contact Form"
-        enctype="text/plain"
-        action="https://docs.google.com/forms/d/e/1FAIpQLScWwAELW8_g2anrilDyH3UGDZrXfZPR-OyAQlUe7q_jAdTclQ/viewform?usp=pp_url"
-      >
+      <q-form @submit.prevent="onSubmit" name="Contact Form" action="POST">
         <q-input
           outlined
           v-model="firstName"

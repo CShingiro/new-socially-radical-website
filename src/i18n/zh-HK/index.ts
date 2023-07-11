@@ -4,6 +4,8 @@
 export default {
   websiteTitle: '社會激進的網頁設計',
   websiteWelcome: '歡迎來到社會激進的網頁設計',
+  home: '主頁',
+  homeCaption: '歡迎頁面',
   aboutButton: '關於',
   aboutDetailsPartOne: '謝基礎',
   aboutDetailsPartTwo: '畢業於康尼斯託加學院互聯網應用和網絡開發基礎課程。他已經擁有許多項目，並且是一個廣播節目的網絡管理員和主持人名為',
@@ -12,6 +14,7 @@ export default {
   aboutDetailsPartFour: '問他的公共 GitHub，其中包含完整和正在進行的項目。',
   credentialsButton: '證書',
   pastWork: '過去的項目',
+  pastWorkCaption: '過去的高質量工作',
   contactButton: '聯繫',
   aboutTitle: '關於設計師',
   credentialsTitle: '證書和資格',

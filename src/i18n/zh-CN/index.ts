@@ -4,6 +4,8 @@
 export default {
   websiteTitle: '社会激进的网页设计',
   websiteWelcome: '欢迎来到社会激进的网页设计',
+  home: '主页',
+  homeCaption: '欢迎页面',
   aboutButton: '关于',
   aboutDetailsPartOne: '谢基础',
   aboutDetailsPartTwo: '毕业于康尼斯托加学院互联网应用和网络开发基础课程。他已经拥有许多项目，并且是一个广播节目的网络管理员和主持人名为',
@@ -12,6 +14,7 @@ export default {
   aboutDetailsPartFour: '问他的公共 GitHub，其中包含完整和正在进行的项目。',
   credentialsButton: '证书',
   pastWork: '过去的项目',
+  pastWorkCaption: '过去的高质量工作',
   contactButton: '联系',
   aboutTitle: '关于设计师',
   credentialsTitle: '证书和资格',

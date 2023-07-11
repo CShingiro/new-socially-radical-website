@@ -4,6 +4,8 @@
 export default {
   websiteTitle: 'Conception Web Socialement Radical',
   websiteWelcome: 'Bienvenue sur le Conception Web Socialement Radical',
+  home: 'Accueil',
+  homeCaption: 'Page d\'Accueil',
   aboutButton: 'À Propos',
   aboutDetailsPartOne: 'Marthad Shingiro Umucyaba',
   aboutDetailsPartTwo: ', née Christian Shingiro, est diplômée du programme Internet Applications and Web Development Fundamentals du Conestoga College. Il a déjà de nombreux projets à son actif, et est le webmestre et animateur d\'une émission de radio intitulée',
@@ -12,6 +14,7 @@ export default {
   aboutDetailsPartFour: 'pour son GitHub public de projets complets et en cours.',
   credentialsButton: 'Titres',
   pastWork: 'Projets Passés',
+  pastWorkCaption: 'Travail Passé de Qualité',
   contactButton: 'Contact',
   aboutTitle: 'À propos du Concepteur',
   credentialsTitle: 'Titres et Qualifications',

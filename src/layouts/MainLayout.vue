@@ -164,8 +164,8 @@ const { t } = useI18n();
 
 const essentialLinks: EssentialLinkProps[] = [
   {
-    title: 'Home',
-    caption: 'Home Page',
+    title: t('home'),
+    caption: t('homeCaption'),
     icon: 'home',
     link: '/',
   },
@@ -183,7 +183,7 @@ const essentialLinks: EssentialLinkProps[] = [
   },
   {
     title: t('pastWork'),
-    caption: 'Past quality work',
+    caption: t('pastWorkCaption'),
     icon: 'design_services',
     link: '/past-work',
   },

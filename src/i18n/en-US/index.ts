@@ -4,6 +4,8 @@
 export default {
   websiteTitle: 'Socially Radical Web Design',
   websiteWelcome: 'Welcome to Socially Radical Web Design',
+  home: 'Home',
+  homeCaption: 'Home page',
   aboutButton: 'About',
   aboutDetailsPartOne: 'Marthad Shingiro Umucyaba',
   aboutDetailsPartTwo: ', nee Christian Shingiro, is a graduate of the Internet Applications and Web Development Fundamentals Program at Conestoga College. He already has many projects under his belt, and is the web master and host of a radio show called',
@@ -12,6 +14,7 @@ export default {
   aboutDetailsPartFour: 'for his public GitHub of complete and ongoing projects.',
   credentialsButton: 'Credentials',
   pastWork: 'Past Work',
+  pastWorkCaption: 'Past Quality Work',
   contactButton: 'Contact',
   aboutTitle: 'About the Designer',
   credentialsTitle: 'Credentials and Qualifications',

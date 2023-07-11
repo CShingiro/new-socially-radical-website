@@ -9,7 +9,7 @@ export default {
   aboutButton: 'About',
   aboutDetailsPartOne: 'Marthad Shingiro Umucyaba',
   aboutDetailsPartTwo: ', nee Christian Shingiro, is a graduate of the Internet Applications and Web Development Fundamentals Program at Conestoga College. He already has many projects under his belt, and is the web master and host of a radio show called',
-  aboutDetailsPartThree: '. His specialties are UI/UX design, Wordpress, Bootstrap, Vuejs, PHP, MySQL, and general Full Stack web development on Linux. He aims to be Socially Radical, while providing web services at a rate that\'s socially reasonable. You can go',
+  aboutDetailsPartThree: '. His specialties are UI/UX design, Wordpress, Bootstrap, Vuejs, PHP, MySQL, and general Full Stack web development on Linux. He aims to be Socially Radical, while providing web services at a rate that\'s socially reasonable. You can go ',
   githubLink: 'here',
   aboutDetailsPartFour: 'for his public GitHub of complete and ongoing projects.',
   credentialsButton: 'Credentials',

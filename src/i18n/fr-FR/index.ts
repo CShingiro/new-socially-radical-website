@@ -2,8 +2,8 @@
 // so you can safely delete all default props below
 
 export default {
-  websiteTitle: 'Conception Web Socialement Radical',
-  websiteWelcome: 'Bienvenue sur le Conception Web Socialement Radical',
+  websiteTitle: 'Conception Web Radical',
+  websiteWelcome: 'Bienvenue sur le Conception Web Radical',
   home: 'Accueil',
   homeCaption: 'Page d\'Accueil',
   aboutButton: 'À Propos',
@@ -21,8 +21,8 @@ export default {
   contactTitle: 'Contactez le Concepteur',
   contactNotice: 'Remarque : Ce formulaire est uniquement destiné aux personnes qui se renseignent sur la conception Web socialement radicale. Si vous avez des questions sur le journalisme, des demandes liées aux médias ou une question sur l\'émission de radio, veuillez vous référer à ',
   srgLink: 'Le Guitariste Socialement Radicale',
-  copyrightDesktop: '2022 - Conception Web Socialement Radical',
-  copyrightMobile: '2022 - CWSR',
+  copyrightDesktop: '2022 - Conception Web Radical',
+  copyrightMobile: '2022 - CWR',
   formFirstName: 'Prénom',
   formLastName: 'Nom de Famille',
   formEmail: 'E-mail',

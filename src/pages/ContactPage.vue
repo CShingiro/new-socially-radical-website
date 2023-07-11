@@ -37,7 +37,7 @@ const onSubmit = () => {
       console.log(err);
     });
 
-  alert(t('formAlert'));
+  alert(t('formSent'));
   firstName.value = '';
   lastName.value = '';
   email.value = '';

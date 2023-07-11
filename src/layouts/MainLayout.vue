@@ -61,6 +61,8 @@
           emit-value
           map-options
           options-dense
+          dark
+          dropdown-icon="ion-globe"
         >
           <template v-slot:option="scoped">
             <q-item :="scoped.itemProps">

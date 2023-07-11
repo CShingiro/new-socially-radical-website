@@ -25,7 +25,7 @@ const docs = [
           :duration="5000"
         >
           <h1 class="romade-italic text-center">
-            Credentials and Qualifications
+            {{ $t('credentialsTitle') }}
           </h1>
         </transition>
       </div>
@@ -40,7 +40,7 @@ const docs = [
     <div class="row items-center">
       <div class="col">
         <h3 class="romade-italic text-center">
-          Credentials and Qualifications
+          {{ $t('credentialsTitle') }}
         </h3>
       </div>
     </div>
@@ -52,7 +52,7 @@ const docs = [
   </q-page>
   <q-page class="col items-center justify-evenly lt-md">
     <div class="col">
-      <h5 class="romade-italic text-center">Credentials and Qualifications</h5>
+      <h5 class="romade-italic text-center">{{ $t('credentialsTitle') }}</h5>
     </div>
     <credentials-card
       v-for="(doc, index) in docs"

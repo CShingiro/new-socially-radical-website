@@ -14,7 +14,7 @@ const pastStuff = theBestWorkDone;
         leave-active-class="animated rollOut delay-3s"
         :duration="5000"
       >
-        <h1 class="romade-italic">Past Work</h1>
+        <h1 class="romade-italic">{{ $t('pastWork') }}</h1>
       </transition>
     </div>
     <projects-card
@@ -24,7 +24,7 @@ const pastStuff = theBestWorkDone;
     ></projects-card>
   </q-page>
   <q-page class="col items-center justify-evenly md">
-    <h3 class="romade-italic">Past Work</h3>
+    <h3 class="romade-italic">{{ $t('pastWork') }}</h3>
     <projects-card
       v-for="(pastThing, index) in pastStuff"
       :pastWork="pastThing"
@@ -34,7 +34,7 @@ const pastStuff = theBestWorkDone;
   <q-page class="row items-center justify-evenly lt-md">
     <div class="row">
       <div class="col">
-        <h4 class="romade-italic text-center">Past Work</h4>
+        <h4 class="romade-italic text-center">{{ $t('pastWork') }}</h4>
       </div>
     </div>
     <div class="row">

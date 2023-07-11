@@ -9,7 +9,7 @@
         leave-active-class="animated fadeOutDown delay-3s"
         :duration="5000"
       >
-        <h1 class="romade-italic">About the Designer</h1>
+        <h1 class="romade-italic">{{ $t('aboutTitle') }}</h1>
       </transition>
     </div>
     <div class="row">
@@ -35,19 +35,15 @@
           :duration="5000"
         >
           <h6 key="font-size">
-            <strong key="emphasis">Marthad Shingiro Umucyaba</strong>, nee
-            Christian Shingiro, is a graduate of the Internet Applications and
-            Web Development Fundamentals Program at Conestoga College. He
-            already has many projects under his belt, and is the web master and
-            host of a radio show called
+            <strong key="emphasis">{{ $t('aboutDetailsPartOne') }}</strong
+            >{{ $t('aboutDetailsPartTwo') }}
             <a key="self-link" href="https://sociallyradicalguitarist.com">
-              The Socially Radical Guitarist</a
-            >. His specialties are UI/UX design, Wordpress, Bootstrap, Vuejs,
-            PHP, MySQL, and general Full Stack web development on Linux. He aims
-            to be Socially Radical, while providing web services at a rate
-            that's socially reasonable. You can go
-            <a key="pro-link" href="https://github.com/CShingiro">here</a>
-            for his public GitHub of complete and ongoing projects.
+              {{ $t('srgLink') }}</a
+            >{{ $t('aboutDetailsPartThree') }}
+            <a key="pro-link" href="https://github.com/CShingiro">{{
+              $t('githubLink')
+            }}</a>
+            {{ $t('aboutDetailsPartFour') }}
           </h6>
         </transition-group>
       </div>
@@ -55,7 +51,7 @@
   </q-page>
   <q-page class="row items-center justify-evenly md">
     <div class="row">
-      <h3 class="romade-italic">About the Designer</h3>
+      <h3 class="romade-italic">{{ $t('aboutTitle') }}</h3>
     </div>
     <div class="row">
       <q-img
@@ -65,19 +61,12 @@
       ></q-img>
       <div class="col">
         <span>
-          <strong>Marthad Shingiro Umucyaba</strong>, nee Christian Shingiro, is
-          a graduate of the Internet Applications and Web Development
-          Fundamentals Program at Conestoga College. He already has many
-          projects under his belt, and is the web master and host of a radio
-          show called
-          <a href="https://sociallyradicalguitarist.com">
-            The Socially Radical Guitarist</a
-          >. His specialties are UI/UX design, Wordpress, Bootstrap, Vuejs, PHP,
-          MySQL, and general Full Stack web development on Linux. He aims to be
-          Socially Radical, while providing web services at a rate that's
-          socially reasonable. You can go
-          <a href="https://github.com/CShingiro">here</a>
-          for his public GitHub of complete and ongoing projects.
+          <strong>{{ $t('aboutDetailsPartOne') }}</strong
+          >{{ $t('aboutDetailsPartTwo') }}
+          <a href="https://sociallyradicalguitarist.com"> {{ $t('srgLink') }}</a
+          >{{ $t('aboutDetailsPartThree') }}
+          <a href="https://github.com/CShingiro">{{ $t('githubLink') }}</a>
+          {{ $t('aboutDetailsPartFour') }}
         </span>
       </div>
     </div>
@@ -85,22 +74,17 @@
   <q-page class="row items-center justify-evenly lt-md">
     <q-img src="/Images/MarthadUmucyaba.jpg">
       <div class="absolute-bottom text-h5 text-center romade-italic">
-        About The Designer
+        {{ $t('aboutTitle') }}
       </div>
     </q-img>
     <div class="row">
       <span class="text-caption">
-        <strong>Marthad Shingiro Umucyaba</strong>, nee Christian Shingiro, is a
-        graduate of the Internet Applications and Web Development Fundamentals
-        Program at Conestoga College. He already has many projects under his
-        belt, and is the web master and host of a radio show called
-        <a href="https://sociallyradicalguitarist.com">
-          The Socially Radical Guitarist</a
-        >. His specialties are UI/UX design, Wordpress, Bootstrap, Vuejs, PHP,
-        MySQL, and general Full Stack web development on Linux. He aims to be
-        Socially Radical, while providing web services at a rate that's socially
-        reasonable. You can go <a href="https://github.com/CShingiro">here</a>
-        for his public GitHub of complete and ongoing projects.
+        <strong>{{ $t('aboutDetailsPartOne') }}</strong
+        >{{ $t('aboutDetailsPartTwo') }}
+        <a href="https://sociallyradicalguitarist.com"> {{ $t('srgLink') }}</a
+        >{{ $t('aboutDetailsPartThree')
+        }}<a href="https://github.com/CShingiro">{{ $t('githubLink') }}</a>
+        {{ $t('aboutDetailsPartFour') }}
       </span>
     </div>
   </q-page>

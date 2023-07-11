@@ -17,7 +17,7 @@
         leave-active-class="animated fadeOutDown delay-3s"
         :duration="5000"
       >
-        <h4 class="romade-italic">Welcome to Socially Radical Web Design</h4>
+        <h4 class="romade-italic">{{ $t('websiteWelcome') }}</h4>
       </transition>
       <div class="row items-center justify-evenly">
         <div class="col">
@@ -31,7 +31,7 @@
               no-caps
               class="romade-italic"
               outline
-              label="About the Designer"
+              :label="$t('aboutTitle')"
               to="/about"
             ></q-btn>
           </transition>
@@ -47,7 +47,7 @@
               no-caps
               class="romade-italic"
               outline
-              label="Contact"
+              :label="$t('contactButton')"
               to="/contact"
             ></q-btn>
           </transition>
@@ -58,7 +58,7 @@
   <q-page class="lt-lg row items-center justify-evenly">
     <q-img class="logo row center" src="/Images/g1643.svg"></q-img>
     <h5 class="romade-italic text-center">
-      Welcome to Socially Radical Web Design
+      {{ $t('websiteWelcome') }}
     </h5>
     <div class="row items-center justify-evenly">
       <div class="col-gutter-mixed">
@@ -66,7 +66,7 @@
           no-caps
           class="romade-italic"
           flat
-          label="About the Designer"
+          :label="$t('aboutTitle')"
           to="/about"
         ></q-btn>
       </div>
@@ -75,7 +75,7 @@
           no-caps
           class="romade-italic"
           flat
-          label="Contact"
+          :label="$t('contactButton')"
           to="/contact"
         ></q-btn>
       </div>

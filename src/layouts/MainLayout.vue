@@ -63,12 +63,12 @@
           options-dense
         >
           <template v-slot:option="scoped">
-            <q-item :="scoped.itemProps" @="scoped.selected">
+            <q-item :="scoped.itemProps">
               <q-item-section avatar>
                 <q-icon :name="scoped.opt.icon"></q-icon>
               </q-item-section>
-              <q-item-section>
-                <q-item-label :aria-label="scoped.opt.label"></q-item-label>
+              <q-item-section class="romade-italic">
+                {{ scoped.opt.label }}
               </q-item-section>
             </q-item>
           </template>

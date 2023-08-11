@@ -12,7 +12,13 @@
           @click="toggleLeftDrawer"
         />
         <q-item to="/" active-class="white">
-          <q-toolbar-title class="romade-italic" to="/">
+          <q-toolbar-title class="romade-italic gt-xs" to="/">
+            {{ $t('websiteTitle') }}
+          </q-toolbar-title>
+          <q-toolbar-title
+            class="romade-italic lt-sm text-subtitle2 text-center"
+            to="/"
+          >
             {{ $t('websiteTitle') }}
           </q-toolbar-title>
         </q-item>

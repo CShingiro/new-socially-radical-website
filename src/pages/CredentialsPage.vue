@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import CredentialsCard from 'src/components/CredentialsCard.vue';
 const docs = [
-  '/docs/AwardLetter.pdf',
+  '/docs/PCComputerScienceCodeCademy.pdf',
   '/docs/CertificateCodeCademy.pdf',
   '/docs/CertificateNodeCodeCademy.pdf',
   '/docs/CertificateNodeSQLCodeCademy.pdf',
@@ -9,8 +9,9 @@ const docs = [
   '/docs/CertificateRubyCodeCademy.pdf',
   '/docs/ConestogaCertificate.pdf',
   '/docs/GSS证书7_55.pdf',
-  '/docs/ProofofProgramCompletion.pdf',
+  '/docs/CertificateJavaScriptCodeCademy.pdf',
   '/docs/VuejsForgeCertificate.pdf',
+  '/docs/FreeCodeCampCertification.pdf',
 ];
 </script>
 

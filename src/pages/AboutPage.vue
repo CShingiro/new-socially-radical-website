@@ -37,8 +37,8 @@
           <h6 key="font-size">
             <strong key="emphasis">{{ $t('aboutDetailsPartOne') }}</strong
             >{{ $t('aboutDetailsPartTwo') }}
-            <a key="self-link" href="https://sociallyradicalguitarist.com">
-              {{ $t('srgLink') }}</a
+            <a key="self-link" href="https://sociallyradicalrevertmuslim.live">
+              {{ $t('srrmLink') }}</a
             >{{ $t('aboutDetailsPartThree') }}
             <a key="pro-link" href="https://github.com/CShingiro">{{
               $t('githubLink')
@@ -63,7 +63,8 @@
         <span>
           <strong>{{ $t('aboutDetailsPartOne') }}</strong
           >{{ $t('aboutDetailsPartTwo') }}
-          <a href="https://sociallyradicalguitarist.com"> {{ $t('srgLink') }}</a
+          <a href="https://sociallyradicalrevertmuslim.live">
+            {{ $t('srrmLink') }}</a
           >{{ $t('aboutDetailsPartThree') }}
           <a href="https://github.com/CShingiro">{{ $t('githubLink') }}</a>
           {{ $t('aboutDetailsPartFour') }}
@@ -81,7 +82,8 @@
       <span class="text-caption">
         <strong>{{ $t('aboutDetailsPartOne') }}</strong
         >{{ $t('aboutDetailsPartTwo') }}
-        <a href="https://sociallyradicalguitarist.com"> {{ $t('srgLink') }}</a
+        <a href="https://sociallyradicalrevertmuslim.live">
+          {{ $t('srrmLink') }}</a
         >{{ $t('aboutDetailsPartThree')
         }}<a href="https://github.com/CShingiro">{{ $t('githubLink') }}</a>
         {{ $t('aboutDetailsPartFour') }}

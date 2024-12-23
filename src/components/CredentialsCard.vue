@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <q-card>
+  <q-card flat>
     <transition
       appear
       enter-active-class="animated zoomInUp delay-5s"

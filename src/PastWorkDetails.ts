@@ -8,8 +8,8 @@ export const theBestWorkDone = [
   },
   {
     source: '/Images/Showcase2.png',
-    link: 'https://calujules.com/',
-    description: 'Consulting job on customizing WordPress',
+    link: 'https://freepalestine.video',
+    description: 'Site for Free Palestine TV',
   },
   {
     source: '/Images/Showcase3.png',
@@ -25,5 +25,10 @@ export const theBestWorkDone = [
     source: '/Images/Showcase5.png',
     link: 'https://cshingiro.github.io/Team6Project/',
     description: 'Collaborative Conestoga College Project',
+  },
+  {
+    source: '/Images/Showcase6.png',
+    link: 'https://calujules.com/',
+    description: 'Consulting job on customizing WordPress',
   },
 ] as PastWork[];
